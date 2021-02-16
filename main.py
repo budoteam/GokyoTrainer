@@ -2,6 +2,7 @@
 
 from gtts import gTTS
 import subprocess
+import time
 
 THROWS = [
     'De-ashi-barai',
@@ -53,3 +54,4 @@ def play(msg):
 
 for throw in THROWS:
     play(throw)
+    time.sleep(10)
