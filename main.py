@@ -69,7 +69,7 @@ play('let\'s go', 'en', False)
 for group in THROWS:
     for throw in group:
         play(throw, 'ja', True)
-        time.sleep(1)
+        time.sleep(12)
 
     play("30 seconds break", 'en', False)
     time.sleep(25)
