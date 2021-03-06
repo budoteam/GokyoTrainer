@@ -64,15 +64,15 @@ def play(msg, lg, speed):
 
 play('Start in 10 seconds', 'en', False)
 time.sleep(10)
-play('let\'s go', 'en', False)
+play('here we go', 'en', False)
 
 for group in THROWS:
     for throw in group:
         play(throw, 'ja', True)
         time.sleep(12)
 
-    play("30 seconds break", 'en', False)
+    play("30 seconds pause", 'en', False)
     time.sleep(25)
-    play("It continues!", 'en', False)
+    play("On it goes!", 'en', False)
 
 
